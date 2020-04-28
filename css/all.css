@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+img{
+  display:block;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.name{
+  font-family:  Andale Mono;
+  font-size: 80px;
+  letter-spacing: 0px;
+  border-bottom: 2px solid #000000;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+.info img{
+  margin: 48px 0;
+}
+
+.profile{
+  padding-bottom: 48px;
+}
+
+.profile h2,.education h2,.work-experience h2{
+  font-family: PingFang TC;
+  font-size: 32px;
+  border-bottom: 1px solid #000;
+  line-height: 1.4;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.profile span,.education span,.work-experience span{
+font-family: Roboto ;
+font-size: 24px;
+letter-spacing: 0px;
+color: #A00;
+margin-left: 16px;
+}
+
+.profile p, .education li{
+  font-family: PingFang TC ;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.5;
+  margin-left: 45px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.skills-bg{
+  background: #96A9C4;
+  opacity: 1;
+  height: 360px;
+  position: relative;
+  margin: 142px 0 136px;
+}
+.skills{
+  background: #415165 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 494px;
+  position: absolute;
+  /* margin: -10px auto; */
+  top:-19%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 24px;
+}
+
+.skills h2{
+  text-align: center;
+  font: PingFang TC;
+  font-size: 32px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  border-bottom: 1px solid #415165;
+  padding-bottom: 8px;
+  line-height: 1.4;
+  width: 996px;
+  margin: 0 auto;
+}
+.skills span{
+  font-size: 24px;
+  vertical-align: center;
+  margin-left: 16px;
+}
+
+.skills ul{
+  border-left: 1px solid #96A9C4;
+  margin: 0 auto;
+  width: 250px;
+  margin-top: 32px;
+}
+
+.skills li{
+  font-family: Roboto PingFang TC;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin: 16px 24px;
+  line-height: 1.5;
+}
+
+.work-experience{
+  padding-bottom: 72px;
+}
+
+.work-content{
+  border-left: 1px solid #96A9C4;
+  margin-left: 30px;
+  padding-left: 24px;
+}
+
+.work-content h3{
+  font-size: 24px; 
+  font-family: PingFang TC;
+  font-weight: bold;
+}
+.work-content img{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.work-content li{
+  font-size: 20px; 
+  font-family: PingFang TC;
+  width: 642px;
+  line-height: 1.5;
+  font-weight: light;
+  margin-top: 32px;
+}
+
+.contact{
+  text-align: center;
+  background: #415165 0% 0% no-repeat padding-box;
+  color:#FFFFFF;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.contact h2{
+  font-size: 32px;
+  font-family: PingFang TC;
+  line-height: 1.4;
+  border-bottom: 1px solid #FFFFFF;
+  width: 1200px;
+  margin: 0 auto 32px;
+  padding-bottom: 8px;
+}
+.contact span{
+  font-size: 24px;
+  font-family:Roboto;
+}
+
+.contact p{
+  line-height: 1.5;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.icons img{
+  display:inline-block
+}
+.instagram{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.dot::before{
+  content:'';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #96A9C4;
+  position:absolute;
+  top:8px;
+  left:-35px;
+}
+.education{
+  position: relative;
+}
+.timeline::after{
+  content:'';
+  width: 0px;
+  height: 66px;
+  border:1px solid #96A9C4;
+  position:absolute;
+  top:10px;
+  left:-27px;
+}
